@@ -7,10 +7,10 @@ Download [VOC2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/) and unzip da
 ```zsh
 $ ls data
 extract.py             txt2mat.py             xml2txt.py
-Annotations/           |->ImageSets/          JPEGImages/
-                       |    |->Main/
-                       |    |    |->train.txt
-                       |    |    |->val.txt
+Annotations/           ImageSets/             JPEGImages/
+                            |->Main/
+                            |    |->train.txt
+                            |    |->val.txt
 ```
 Use extract.py to extract the images from the datasets based on the filename stored in "ImageSets/".  
 ```
